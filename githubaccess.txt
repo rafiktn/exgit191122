@@ -1,0 +1,1 @@
+git remote add origin https://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@github.com/rafiktn/exgit191122.git

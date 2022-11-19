@@ -1,0 +1,120 @@
+    1  git -v
+    2  git
+    3  pwd
+    4  mkdir
+    5  mkdir work
+    6  cd work/
+    7  mkdir ex1
+    8  cd ex1/
+    9  nano file1.txt
+   10  git config user.name
+   11  git config --global user.name rafik
+   12  git config user.name
+   13  git config --global user.mail rafik.aidoudi2017@gmail.com
+   14  git config user.mail
+   15  git config 
+   16  git config  user.name rafik
+   17  git init
+   18  ll
+   19  git config  user.name rafik
+   20  git config  user.name rafik1
+   21  git config  user.name
+   22  git config  user.mail
+   23  cd .git
+   24  cat config
+   25  git config user.mail rafik.aidoudi2017@gmail.com
+   26  git config user.mail rafik1@gmail.com
+   27  cat config
+   28  cd ..
+   29  pwd
+   30  l
+   31  ll
+   32  git status
+   33  git add file1.txt 
+   34  git status
+   35  git commit -m "First commit"
+   36  git status
+   37  git log
+   38  nano tokenGit.txt
+   39  nano githubaccess.txt
+   40  cat tokenGit.txt 
+   41  nano githubaccess.txt
+   42  cat githubaccess.txt 
+   43  git remote add origin https://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@github.com/rafiktn/exgit191122.git
+   44  git push -u origin main
+   45  git push -u origin master
+   46  cat tokenGit.txt 
+   47  nano tokenGit.txt 
+   48  cat tokenGit.txt 
+   49  nano githubaccess.txt 
+   50  cat githubaccess.txt 
+   51  git remote add origin https://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@github.com/rafiktn/exgit191122.git
+   52  git remote set-url --add origin https://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@github.com/rafiktn/exgit191122.git
+   53  git remote -v
+   54  git remote set-url --delete origin https://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@github.com/rafiktn/exgit191122.git/rafiktn/exgit191122.git
+   55* 
+   56  git remote remove origin https://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@github.com/rafiktn/exgit191122.git
+   57  git remote -v
+   58  git remote remove origin
+   59  git remote -v
+   60  git remote set-url --add origin https://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@github.com/rafiktn/exgit191122.git
+   61  git remote set-url --add master https://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@github.com/rafiktn/exgit191122.git
+   62  git remote set-url --add https://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@github.com/rafiktn/exgit191122.git
+   63  cat githubaccess.txt 
+   64  git remote add origin https://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@github.com/rafiktn/exgit191122.git
+   65  git remote -v
+   66  cat tokenGit.txt 
+   67  git status
+   68  echo "tokenGit.txt" >> .gitignore
+   69  git status
+   70  git commit -am "Second commit"
+   71  nano file1.txt 
+   72  cat file1.txt 
+   73  git push
+   74  git add file1.txt 
+   75  git commit -m "third commit"
+   76  git pull
+   77  git pull file1.txt
+   78  git remote add master https://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@github.com/rafiktn/exgit191122.git
+   79  git push file1.txt
+   80  git branch -M main
+   81  git remote add origin https://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@github.com/rafiktn/exgit191122.git
+   82  git remote add main https://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@github.com/rafiktn/exgit191122.git
+   83  git rmote -v
+   84  git remote -v
+   85  git push origin master
+   86  git push origin master file1.txt
+   87  git push origin file1.txt
+   88  git pull --rebase
+   89  git push
+   90  git push -u origin main
+   91  git push -u origin master
+   92  git remote -v
+   93  git push -u origin origin
+   94  echo "test1" > fichier1.txt
+   95  echo "test2" > fichier2.txt
+   96  git push -u origin main
+   97  cat .gitignore 
+   98  ll
+   99  git commit --help
+  100  git branch
+  101  create branch rafik
+  102  git create branch rafik
+  103  git branch rafik
+  104  git branch
+  105  git checkout rafik
+  106  touch f1 f2 F3
+  107  ll
+  108  git add .
+  109  git push
+  110  git push --set-upstream origin rafik
+  111  git checkout main
+  112  git merge rafik 
+  113  git checkout rafik 
+  114  git merge rafik 
+  115  git branch -d rafik 
+  116  git checkout main 
+  117  git branch -d rafik 
+  118  git branch -a
+  119  git push origin --delete rafik
+  120  history >> history191122.txt
